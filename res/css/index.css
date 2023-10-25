@@ -1,0 +1,58 @@
+
+*{
+    font-family: sans-serif;
+}
+h2{
+    text-align: center;
+}
+
+
+input[type=text], input[type=file] {
+
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display:inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.box{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 70%;
+    padding: 70px 0;
+    text-align: center
+   
+} 
+.submit {
+    background-color: #8aa6bc;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .box {
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        width: 100%;
+       
+        text-align: center
+    }
+    .submit {
+        background-color: #8aa6bc;
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+      }
+  }

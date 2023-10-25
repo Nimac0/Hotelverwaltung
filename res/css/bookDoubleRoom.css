@@ -1,0 +1,97 @@
+*{
+    font-family: sans-serif;
+}
+
+.subtitle{
+   padding-top: 100px;
+    margin: 50px 0 20px;
+    font-size: 2.2vw;
+    font-weight: 500;
+
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+.images div img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.images div{
+    position: relative;
+}
+.images div span{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   color: white;
+}
+
+.box{
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 90%;
+   
+    padding: 70px 0;
+    text-align: center
+   
+} 
+.form{
+    padding: 10px;
+    margin-left: 10px;
+    text-align: left;  
+}
+.form label{
+    display: block;
+}
+
+.form input{
+    background: transparent;
+    border: 0;
+
+}
+.box button{
+    background: #ff5361;
+    border: 0;
+    outline: none;
+    color: #fff;
+    padding: 18px;
+    width: 200px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+
+.details-list li{
+   
+   
+    padding-top: 30px;
+   
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #555;
+}
+.details-list li span{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+}
+ button{
+   
+    background: #ff5361;
+    border: 0;
+    outline: none;
+    color: #fff;
+    padding: 18px;
+    width: 200px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
